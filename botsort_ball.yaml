@@ -1,0 +1,20 @@
+﻿tracker_type: botsort
+
+# 置信阈值与缓冲  稳移动目标、减少短时丢失
+track_high_thresh: 0.50
+track_low_thresh: 0.10
+new_track_thresh: 0.20
+track_buffer: 90
+
+# 关联匹配  降低人脸当球的错配
+match_thresh: 0.75
+fuse_score: True
+
+# 运动模型与重识别相关开关
+gmc_method: none
+with_reid: False
+model: auto
+
+# 距离与外观门限（和我们脚本里的颜色/圆度闸门配合）
+proximity_thresh: 0.50
+appearance_thresh: 0.25

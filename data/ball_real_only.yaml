@@ -1,0 +1,7 @@
+﻿path: .
+train:
+  - data/real_ball_yolo/images
+val:
+  - data/real_ball_yolo/images
+names:
+  0: ball
